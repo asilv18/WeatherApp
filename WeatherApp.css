@@ -63,7 +63,8 @@ footer {
   font-size: 12px;
   text-align: center;
   color: white;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  font-family: monospace;
 }
 
 .days-weather1,
