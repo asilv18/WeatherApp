@@ -135,12 +135,12 @@ footer {
 }
 
 #celcius,
-#fahrenheit {
+#farenheit {
   color: white;
   font-size: small;
 }
 #celcius:hover,
-#fahrenheit:hover {
+#farenheit:hover {
   color: #42a5f5;
   transition: all 200ms ease-in-out;
 }
