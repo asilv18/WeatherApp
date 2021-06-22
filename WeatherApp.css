@@ -176,12 +176,3 @@ footer {
   color: black;
   background-color: #42a5f5;
 }
-#current-date-time {
-  font-size: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 20%;
-  font-weight: bold;
-  background-color: white;
-  border-radius: 10px;
-}
