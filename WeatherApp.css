@@ -135,7 +135,8 @@ footer {
 }
 
 #celcius,
-#farenheit {
+#farenheit,
+#barrier {
   color: white;
   font-size: 20px;
 }
