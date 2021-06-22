@@ -89,7 +89,10 @@ footer {
   align-content: center;
   color: black;
 }
-
+.measurement {
+  color: white;
+  font-size: 20px;
+}
 .days-weather1 {
   position: relative;
   left: 450px;
