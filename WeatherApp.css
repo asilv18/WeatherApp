@@ -47,10 +47,10 @@ p {
 }
 ul li {
   color: white;
-  font-size: 20px;
+  font-size: 10px;
   position: relative;
-  left: 600px;
-  top: 20px;
+  left: 700px;
+  bottom: 40px;
 }
 footer {
   font-size: 12px;
