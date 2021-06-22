@@ -149,7 +149,8 @@ footer {
   border-radius: 5px;
 }
 #search-Button {
-  margin: 50px;
+  margin: 30px auto;
+  padding: 20px auto;
   display: inline-block;
   font-size: 15px;
   height: auto;
