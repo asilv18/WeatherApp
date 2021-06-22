@@ -84,7 +84,7 @@ footer {
 }
 
 .days-weather1 {
-  position: relative;
+  position: fixed;
   left: 550px;
   bottom: 60px;
 }
