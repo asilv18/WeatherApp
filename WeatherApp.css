@@ -101,17 +101,17 @@ footer {
 .days-weather4 {
   position: relative;
   left: 450px;
-  bottom: 50px;
+  bottom: 35px;
 }
 .days-weather5 {
   position: relative;
   left: 150px;
-  bottom: 50px;
+  bottom: 35px;
 }
 .days-weather6 {
   position: relative;
   right: 150px;
-  bottom: 50px;
+  bottom: 35px;
 }
 .content {
   margin-right: auto;
