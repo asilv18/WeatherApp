@@ -8,7 +8,8 @@ body {
   background-position: center;
 }
 
-h1 {
+h1,
+h2 {
   display: block;
   text-align: center;
   color: black;
@@ -27,7 +28,7 @@ h1 {
   margin-bottom: 5px;
 }
 
-h2 {
+h3 {
   display: block;
   text-align: center;
   font-size: 40px;
