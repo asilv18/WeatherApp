@@ -84,23 +84,23 @@ footer {
 }
 
 .days-weather1 {
-  position: fixed;
-  left: 550px;
+  position: relative;
+  left: 400px;
   bottom: 60px;
 }
 .days-weather2 {
   position: relative;
-  left: 350px;
+  left: 400px;
   bottom: 60px;
 }
 .days-weather3 {
   position: relative;
-  right: 350px;
+  right: 400px;
   bottom: 60px;
 }
 .days-weather4 {
   position: relative;
-  left: 550px;
+  left: 400px;
   bottom: 40px;
 }
 .days-weather5 {
