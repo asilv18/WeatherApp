@@ -145,6 +145,7 @@ footer {
 }
 #inputCity {
   border-radius: 5px;
+  margin-bottom: 70px;
 }
 #search-Button {
   display: inline-block;
