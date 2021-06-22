@@ -137,11 +137,12 @@ footer {
 #celcius,
 #farenheit {
   color: white;
-  font-size: small;
+  font-size: 20px;
 }
 #celcius:hover,
 #farenheit:hover {
   color: #42a5f5;
+  font-size: 30px;
   transition: all 200ms ease-in-out;
 }
 #inputCity {
