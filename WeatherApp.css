@@ -10,20 +10,13 @@ body {
 h1 {
   display: block;
   text-align: center;
-  color: black;
+  color: white;
   font-weight: bold;
   font-family: "Ubuntu", sans-serif;
   position: relative;
-
   padding: 0 auto;
   margin: 0 auto;
   font-size: 35px;
-  background-color: white;
-  width: 15%;
-  border-radius: 10px;
-  padding: 5px;
-  margin-top: 25px;
-  margin-bottom: 5px;
 }
 h2 {
   display: block;
