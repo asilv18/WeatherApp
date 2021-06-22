@@ -49,7 +49,8 @@ ul li {
   color: white;
   font-size: 20px;
   position: relative;
-  left: 450px;
+  left: 900px;
+  top: 20px;
 }
 footer {
   font-size: 12px;
