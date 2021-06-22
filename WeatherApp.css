@@ -57,6 +57,8 @@ footer {
 .measurement {
   color: white;
   font-size: 20px;
+  position: relative;
+  left: 450px;
 }
 .days-weather1,
 .days-weather2,
