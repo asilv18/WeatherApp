@@ -73,7 +73,6 @@ footer {
   width: 35%;
   border-radius: 10px;
   color: black;
-  padding-bottom: 20px;
 }
 
 .card-text {
@@ -88,6 +87,7 @@ footer {
   position: relative;
   left: 450px;
   bottom: 20px;
+  top: 30px;
 }
 .days-weather2 {
   position: relative;
