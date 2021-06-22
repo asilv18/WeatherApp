@@ -28,9 +28,11 @@ h1 {
 h2 {
   display: block;
   text-align: center;
+  position: relative;
+  padding: 0 auto;
+  margin: 0 auto;
   color: white;
   font-size: 35px;
-  padding: 5px;
   margin-top: 25px;
   margin-bottom: 5px;
 }
