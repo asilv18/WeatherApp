@@ -95,22 +95,22 @@ footer {
 }
 .days-weather3 {
   position: relative;
-  right: 400px;
+  right: 600px;
   bottom: 60px;
 }
 .days-weather4 {
   position: relative;
-  left: 400px;
+  left: 600px;
   bottom: 40px;
 }
 .days-weather5 {
   position: relative;
-  left: 350px;
+  left: 4000px;
   bottom: 40px;
 }
 .days-weather6 {
   position: relative;
-  right: 350px;
+  right: 400px;
   bottom: 40px;
 }
 .content {
