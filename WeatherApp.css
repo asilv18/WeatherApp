@@ -148,6 +148,7 @@ footer {
 #inputCity,
 #search-Button,
 #current {
+  position: relative;
   bottom: 50px;
 }
 #inputCity {
