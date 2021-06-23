@@ -148,8 +148,9 @@ footer {
 #inputCity,
 #search-Button,
 #current {
+  display: inline-block;
   position: relative;
-  bottom: 50px;
+  top: 50px;
 }
 #inputCity {
   border-radius: 5px;
