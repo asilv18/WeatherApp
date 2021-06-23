@@ -152,9 +152,6 @@ footer {
   position: relative;
   top: 40px;
 }
-#inputCity {
-  border-radius: 5px;
-}
 #search-Button {
   font-size: 15px;
   height: auto;
