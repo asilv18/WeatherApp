@@ -60,3 +60,6 @@ function getPosition(event) {
 let currentLocation = document.querySelector("#current");
 currentLocation.addEventListener("click", getPosition);
 searchCity("London");
+
+let descriptionElement = document.querySelector("#description")
+descriptionElement.innerHTML = response.data.name;
