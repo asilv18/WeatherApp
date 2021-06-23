@@ -144,6 +144,12 @@ footer {
   font-size: 30px;
   transition: all 200ms ease-in-out;
 }
+
+#inputCity,
+#search-Button,
+#current {
+  bottom: 50px;
+}
 #inputCity {
   border-radius: 5px;
   margin-bottom: 70px;
