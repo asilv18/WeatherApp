@@ -11,8 +11,11 @@ let days = [
 let day = days[now.getDay()];
 let hours = now.getHours();
 let minutes = now.getMinutes();
+
+
 let h2 = document.querySelector("#current-date-time");
 h2.innerHTML = `${day} ${hours}:${minutes}`;
+
 function search(event) {
   event.preventDefault();
   let inputCity = document.querySelector("#input-City");
