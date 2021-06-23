@@ -137,7 +137,7 @@ footer {
   transition: all 200ms ease-in-out;
 }
 
-#inputCity,
+#input-City,
 #search-Button,
 #current {
   display: inline-block;
