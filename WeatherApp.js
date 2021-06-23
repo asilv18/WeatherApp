@@ -61,5 +61,9 @@ let currentLocation = document.querySelector("#current");
 currentLocation.addEventListener("click", getPosition);
 searchCity("London");
 
-let descriptionElement = document.querySelector("#description")
-descriptionElement.innerHTML = response.data.name;
+  let descriptionElement = document.querySelector("#description");
+  descriptionElement.innerHTML = response.data.weather[0].description;
+  let humidityElement = document.querySelector("#humidity");
+  humidityElementElement.innerHTML = response.data.main.humidity;
+  let windElement = document.querySelector("#wind");
+  windElement.innerHTML = Math.round(response.data.wind.speed);

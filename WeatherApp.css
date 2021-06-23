@@ -48,6 +48,7 @@ p {
 ul li {
   color: white;
   font-size: 15px;
+  text-transform: capitalize;
   position: relative;
   left: 850px;
   bottom: 60px;
