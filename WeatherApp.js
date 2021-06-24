@@ -55,6 +55,9 @@ function displayWeatherCondition(response) {
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#current-temp").innerHTML = Math.round(
     response.data.main.temp);
+  let h2 = document.querySelector("#current-date-time");
+h2.innerHTML = formatDate(response.data.dt *1000);
+
  let descriptionElement = document.querySelector("#description");
   descriptionElement.innerHTML = response.data.weather[0].description;
   let humidityElement = document.querySelector("#humidity");
@@ -62,8 +65,6 @@ function displayWeatherCondition(response) {
   let windElement = document.querySelector("#wind");
   windElement.innerHTML = Math.round(response.data.wind.speed);
 
-  let h2 = document.querySelector("#current-date-time");
-h2.innerHTML = formatDate(response.data.dt *1000);
 }
 function currentPosition(position) {
   let apiKey = "267c42e32a005ebd3d86d6022f9f9baf";
