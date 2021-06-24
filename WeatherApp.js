@@ -1,19 +1,15 @@
-let now = new Date();
-let days = [
-  "Sunday",
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday"
-];
-let day = days[now.getDay()];
-let hours = now.getHours();
-let minutes = now.getMinutes();
+function formatDate(timestamp) {
+let date = new Date(timestamp);
+let hours = date.getHours();
+let minutes=date.getminutes();
+let day = date.getDay();
+return `${day} ${hours}:${minutes}`;
+
+}
+
 
 let h2 = document.querySelector("#current-date-time");
-h2.innerHTML = `${day} ${hours}:${minutes}`;
+h2.innerHTML = formatDate(response.data.dt *1000);
 
 function search(event) {
   event.preventDefault();
