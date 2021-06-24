@@ -1,9 +1,3 @@
-let now = new Date();
-let day = days[now.getDay()];
-let hours = now.getHours();
-let minutes = now.getMinutes();
-
-
 function formatDate(timestamp) {
 let date = new Date(timestamp);
 let hours = date.getHours();
