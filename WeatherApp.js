@@ -6,11 +6,6 @@ let day = date.getDay();
 return `${day} ${hours}:${minutes}`;
 
 }
-
-
-let h2 = document.querySelector("#current-date-time");
-h2.innerHTML = formatDate(response.data.dt *1000);
-
 function search(event) {
   event.preventDefault();
   let inputCity = document.querySelector("#input-City");
@@ -46,6 +41,8 @@ function displayWeatherCondition(response) {
   document.querySelector("#current-temp").innerHTML = Math.round(
     response.data.main.temp
   );
+  let h2 = document.querySelector("#current-date-time");
+h2.innerHTML = formatDate(response.data.dt *1000);
 }
 function currentPosition(position) {
   let apiKey = "267c42e32a005ebd3d86d6022f9f9baf";
