@@ -1,7 +1,22 @@
+let now = new Date();
+let days = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday"
+];
+let day = days[now.getDay()];
+let hours = now.getHours();
+let minutes = now.getMinutes();
+
+
 function formatDate(timestamp) {
 let date = new Date(timestamp);
 let hours = date.getHours();
-let minutes=date.getminutes();
+let minutes=date.getMinutes();
 let day = date.getDay();
 return `${day} ${hours}:${minutes}`;
 
@@ -39,8 +54,7 @@ function searchCity(city) {
 function displayWeatherCondition(response) {
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#current-temp").innerHTML = Math.round(
-    response.data.main.temp
-  );
+    response.data.main.temp);
   let h2 = document.querySelector("#current-date-time");
 h2.innerHTML = formatDate(response.data.dt *1000);
 }
