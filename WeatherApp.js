@@ -1,13 +1,4 @@
 let now = new Date();
-let days = [
-  "Sunday",
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday"
-];
 let day = days[now.getDay()];
 let hours = now.getHours();
 let minutes = now.getMinutes();
@@ -17,7 +8,16 @@ function formatDate(timestamp) {
 let date = new Date(timestamp);
 let hours = date.getHours();
 let minutes=date.getMinutes();
-let day = date.getDay();
+let days = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday"
+];
+let day = days[date.getDay()];
 return `${day} ${hours}:${minutes}`;
 
 }
