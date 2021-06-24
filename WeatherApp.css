@@ -18,7 +18,10 @@ h2 {
   top: 30px;
   padding: 5px;
   margin: 8px;
-  font-size: 35px;
+  font-size: 40px;
+}
+h2 {
+  font-size: 30px;
 }
 h3 {
   display: block;
