@@ -132,7 +132,7 @@ footer {
 
 .icon {
   position: relative;
-  left: 150px;
+  right: 150px;
 }
 #celcius,
 #farenheit,
