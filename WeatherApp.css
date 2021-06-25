@@ -130,6 +130,10 @@ footer {
   height: auto;
 }
 
+.icon {
+  position: relative;
+  left: 50px;
+}
 #celcius,
 #farenheit,
 #barrier {
