@@ -129,11 +129,6 @@ footer {
   min-width: 1000px;
   height: auto;
 }
-
-.icon {
-  position: bottom 20px;
-  right: 200px;
-}
 #celcius,
 #farenheit,
 #barrier {
