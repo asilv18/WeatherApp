@@ -9,13 +9,16 @@
       integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-    <link href="WeatherApp.css" rel="stylesheet"/>
-      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    </head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link href="WeatherApp.css" rel="stylesheet" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
   <body>
-<div class="container rounded WeatherApp">
+    <div class="container rounded WeatherApp">
       <div class="d-flex justify-content-center searchBar">
         <form class="searchBarForm searchBar">
           <div class="mb-3">
@@ -25,103 +28,114 @@
             </button>
             <button id="current">Current Location</button>
           </div>
-        </div>
-        </div>
         </form>
-         <h1 id="city">London  
-        <img src= http://ssl.gstatic.com/onebox/weather/64/sunny.png
-        alt = "clear"
-        id ="icon"></h1>
-    <h2> Last updated: <span id="current-date-time" ></h2>
+      </div>
+      <h1 id="city">London</h1>
+      <h2>Last updated: <span id="current-date-time"></span></h2>
+      <div class="row align-items-end">
+        <div class="col-3">
+          <img
+            src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+            alt="clear"
+            id="icon"
+            class="float-left"
+          />
         </div>
-<div class ="temp">
-         <h3>
-        <span id="current-temp"> 10° </span>
-        <span class="units"><small>
-          <a href="#" id="celcius"> °C </a>
-            <a href="#" id="barrier"> |</a> 
-          <a href="#" id="farenheit"> F </a></small>
-          </span> 
-          </h3>
-  <div class="row">
-    <div class="col-6">
-      
-        <div class ="clearfix weather-temperature">
-        <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-        alt="clear" id="icon"
-        class="float-left"/>
+        <div class="col-6">
+          <div class="temp">
+            <h3>
+              <span id="current-temp"> 10° </span>
+              <span class="units"
+                ><small>
+                  <a href="#" id="celcius"> °C </a>
+                  <a href="#" id="barrier"> |</a>
+                  <a href="#" id="farenheit"> F </a></small
+                >
+              </span>
+            </h3>
+          </div>
+        </div>
+        <div class="col-3">
           <ul>
-        <li id= "description"></li>
-        <li>
-        Humidity: <span id= "humidity"> </span>  %
-        </li>
-        <li>
-         Wind: <span id="wind"></span>km/hr
-        </li>
-      </ul>
+            <li id="description"></li>
+            <li>Humidity: <span id="humidity"> </span> %</li>
+            <li>Wind: <span id="wind"></span>km/hr</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row predictions">
+        <div class="col-2">
+          <div class="card days-weather1">
+            <div class="card-body">
+              <h5 class="card-title">Monday</h5>
+              <h6 class="card-subtitle mb-2 text-muted">
+                <i class="fas fa-cloud-rain emojis"></i>
+              </h6>
+              <p class="card-text">11°C /5°C 🌧️</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card days-weather2">
+            <div class="card-body">
+              <h5 class="card-title">Tuesday</h5>
+              <h6 class="card-subtitle mb-2 text-muted">
+                <i class="fas fa-cloud-rain emojis"></i>
+              </h6>
+              <p class="card-text">11°C /5°C 🌧️</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card days-weather3">
+            <div class="card-body">
+              <h5 class="card-title">Wednesday</h5>
+              <h6 class="card-subtitle mb-2 text-muted">
+                <i class="fas fa-cloud emojis"></i>
+              </h6>
+              <p class="card-text">18°C /7°C 🌦️</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card days-weather4">
+            <div class="card-body">
+              <h5 class="card-title">Thursday</h5>
+              <h6 class="card-subtitle mb-2 text-muted">
+                <i class="fas fa-cloud emojis"></i>
+              </h6>
+              <p class="card-text">20°C /9°C 🌤️</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card days-weather5">
+            <div class="card-body">
+              <h5 class="card-title">Friday</h5>
+              <h6 class="card-subtitle mb-2 text-muted">
+                <i class="far fa-sun emojis"></i>
+              </h6>
+              <p class="card-text">28°C /10°C 🌤️</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card days-weather6">
+            <div class="card-body">
+              <h5 class="card-title">Saturday</h5>
+              <h6 class="card-subtitle mb-2 text-muted">
+                <i class="far fa-sun emojis"></i>
+              </h6>
+              <p class="card-text">28°C /10°C ☀️</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <a href="https://github.com/asilv18/WeatherApp"> open-source code </a>
+        by Aimee Silver
+      </footer>
     </div>
-  </div>
-  </div>
- 
-<div class="row predictions">  
-  <div class="col-4 ">
-   <div class="card days-weather1">
-  <div class="card-body">
-    <h5 class="card-title">Monday</h5>
-    <h6 class="card-subtitle mb-2 text-muted"><i class="fas fa-cloud-rain emojis"></i></h6>
-    <p class="card-text">11°C /5°C 🌧️</p>
-   </div>
-   </div>
-   </div>
-   <div class="col-4">
-   <div class="card days-weather2">
-  <div class="card-body">
-    <h5 class="card-title">Tuesday</h5>
-    <h6 class="card-subtitle mb-2 text-muted"><i class="fas fa-cloud-rain emojis"></i></h6>
-    <p class="card-text">11°C /5°C 🌧️</p>
-   </div>
-   </div>
-   </div>
-    <div class="col-4">
-   <div class="card days-weather3">
-  <div class="card-body">
-    <h5 class="card-title">Wednesday</h5>
-    <h6 class="card-subtitle mb-2 text-muted"><i class="fas fa-cloud emojis"></i></h6>
-    <p class="card-text">18°C /7°C 🌦️</p>
-   </div>
-   </div>
-   </div>
-  <div class="col-4">
-   <div class="card days-weather4" >
-  <div class="card-body">
-    <h5 class="card-title">Thursday</h5>
-    <h6 class="card-subtitle mb-2 text-muted"><i class="fas fa-cloud emojis"></i></h6>
-    <p class="card-text">20°C /9°C 🌤️</p>
-   </div>
-   </div>
-   </div>
-   <div class="col-4">
-   <div class="card days-weather5">
-  <div class="card-body">
-    <h5 class="card-title">Friday</h5>
-    <h6 class="card-subtitle mb-2 text-muted"><i class="far fa-sun emojis"></i></h6>
-    <p class="card-text">28°C /10°C 🌤️</p>
-   </div>
-   </div>
-</div>
-<div class="col-4">
-   <div class="card days-weather6">
-  <div class="card-body">
-    <h5 class="card-title">Saturday</h5>
-    <h6 class="card-subtitle mb-2 text-muted"><i class="far fa-sun emojis"></i></h6>
-    <p class="card-text">28°C /10°C ☀️</p>
-   </div>
-   </div>
-   </div>
-</div>
-</div>
-</div>
-<footer><a href= https://github.com/asilv18/WeatherApp> open-source code </a> by Aimee Silver</footer>
-<script src="WeatherApp.js"></script>
-</body>
+    <script src="WeatherApp.js"></script>
+  </body>
 </html>
