@@ -65,7 +65,10 @@ footer {
   align-content: center;
   color: black;
 }
-/* .days-weather1 {
+.icon {
+  text-align: center;
+}
+.days-weather1 {
   position: relative;
   left: 450px;
   bottom: 60px;
@@ -94,7 +97,7 @@ footer {
   position: relative;
   right: 150px;
   bottom: 40px;
-} */
+}
 .content {
   margin-right: auto;
   margin-left: auto;
@@ -109,11 +112,11 @@ footer {
   border-color: black;
   background-position: center;
 }
-/* .WebContainer {
+.WebContainer {
   width: 100%;
   min-width: 1000px;
   height: auto;
-} */
+}
 #celcius,
 #farenheit,
 #barrier {
@@ -126,13 +129,13 @@ footer {
   font-size: 30px;
   transition: all 200ms ease-in-out;
 }
-/* #input-City,
+#input-City,
 #search-Button,
 #current {
   display: inline-block;
   position: relative;
   top: 80px;
-} */
+}
 #search-Button {
   font-size: 15px;
   height: auto;
