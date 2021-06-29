@@ -156,9 +156,7 @@ footer {
   color: black;
   background-color: #42a5f5;
 }
-#description,
-#humidity,
-#wind {
+.info {
   position: relative;
-  left: 20px;
+  left: 50px;
 }
