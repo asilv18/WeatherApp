@@ -116,8 +116,8 @@ footer {
   right: 300px;
 }
 .pic {
-  position: relative;
-  left: 400;
+  display: flex;
+  left: 400px;
 }
 /* .WebContainer {
   width: 75%;
