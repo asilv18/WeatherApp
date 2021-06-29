@@ -79,12 +79,12 @@ footer {
 .days-weather3 {
   position: relative;
   left: 700px;
-  bottom: 90px;
+  bottom: 85px;
 }
 .days-weather4 {
   position: relative;
-  left: 450px;
-  bottom: 40px;
+  right: 450px;
+  bottom: 70px;
 }
 .days-weather5 {
   position: relative;
