@@ -115,6 +115,10 @@ footer {
   position: relative;
   right: 300px;
 }
+.pic {
+  position: relative;
+  right: 400;
+}
 /* .WebContainer {
   width: 75%;
   min-width: 1000px;
@@ -159,8 +163,4 @@ footer {
 #current:hover {
   color: black;
   background-color: #42a5f5;
-}
-#icon img {
-  position: relative;
-  right: 400;
 }
