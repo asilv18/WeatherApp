@@ -57,7 +57,7 @@ footer {
   font-size: 10px;
   border-radius: 5px;
   color: black;
-  width: 40%;
+  width: 50%;
   margin: 5px;
 }
 .card-text {
@@ -67,7 +67,7 @@ footer {
   align-content: center;
   color: black;
 }
-/*.days-weather1 {
+/* .days-weather1 {
   position: relative;
   left: 450px;
   bottom: 60px;
@@ -96,7 +96,7 @@ footer {
   position: relative;
   right: 150px;
   bottom: 40px;
-} /*
+} */
 .content {
   margin-right: auto;
   margin-left: auto;
@@ -112,7 +112,7 @@ footer {
   background-position: center;
 }
 /* .WebContainer {
-  width: 100%;
+  width: 75%;
   min-width: 1000px;
   height: auto;
 } */
