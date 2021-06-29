@@ -67,7 +67,7 @@ footer {
   align-content: center;
   color: black;
 }
-/* .days-weather1 {
+.days-weather1 {
   position: relative;
   left: 650px;
   bottom: 60px;
@@ -96,7 +96,7 @@ footer {
   position: relative;
   right: 150px;
   bottom: 40px;
-} */
+}
 .content {
   margin-right: auto;
   margin-left: auto;
