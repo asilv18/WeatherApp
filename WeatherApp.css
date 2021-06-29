@@ -116,7 +116,7 @@ footer {
   right: 300px;
 }
 #icon img {
-  display: flex;
+  display: block;
   left: -40px;
 }
 /* .WebContainer {
