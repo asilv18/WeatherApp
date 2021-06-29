@@ -160,3 +160,7 @@ footer {
   position: relative;
   right: 300px;
 }
+.icon {
+  position: relative;
+  left: 200;
+}
