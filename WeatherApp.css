@@ -111,6 +111,10 @@ footer {
   background-position: center;
   background-size: 650px 500px;
 }
+.info {
+  position: relative;
+  right: 300px;
+}
 /* .WebContainer {
   width: 75%;
   min-width: 1000px;
@@ -156,11 +160,7 @@ footer {
   color: black;
   background-color: #42a5f5;
 }
-.info {
-  position: relative;
-  right: 300px;
-}
-#icon {
+#icon img sunny.png {
   position: relative;
   left: 400;
 }
