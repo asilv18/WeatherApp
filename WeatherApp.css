@@ -57,6 +57,8 @@ footer {
   font-size: 10px;
   border-radius: 5x;
   color: black;
+  margin: 5px;
+  width: 80%;
 }
 .card-text {
   text-align: center;
