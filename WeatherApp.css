@@ -81,6 +81,11 @@ footer {
   background-size: 650px 500px;
   max-width: 650px;
 }
+
+.info {
+  position: relative;
+  left: 30px;
+}
 #celcius,
 #farenheit,
 #barrier {
