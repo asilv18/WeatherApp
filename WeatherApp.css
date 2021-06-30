@@ -83,7 +83,9 @@ footer {
   background-size: 750px 600px;
   max-width: 750px;
 }
-
+.weather-forecast-temperature-min {
+  opacity: 0.6;
+}
 .info {
   position: relative;
   right: 50px;
