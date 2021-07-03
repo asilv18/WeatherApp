@@ -124,8 +124,8 @@ searchCity("London");
                 width="36"
               />
               <div class="weather-forecast-temperature">
-                <span class="weather-forecast-temperature-max">${forecastDay.temp.max}°C </span>
-                <span class="weather-forecast-temperature-min"> ${forecastDay.temp.min}°C </span>
+                <span class="weather-forecast-temperature-max">${Math.round(forecastDay.temp.max)}°C </span>
+                <span class="weather-forecast-temperature-min"> ${Math.round(forecastDay.temp.min)}°C </span>
               </div>
             </div>
           </div>
