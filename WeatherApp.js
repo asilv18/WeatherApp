@@ -114,7 +114,7 @@ searchCity("London");
           <div class ="weather forecast" id="forecast"></div>
           <div class="card days-weather1">
             <div class="card-body">
-              <h5 class="card-title">${forecastDay.dt}</h5>
+              <h5 class="card-title">${formatDay(forecastDay.dt)}</h5>
               <h6 class="card-subtitle mb-2 text-muted">
                 <i class="fas fa-cloud-rain emojis"></i>
               </h6>
