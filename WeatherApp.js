@@ -53,6 +53,7 @@ function searchCity(city) {
 }
 
 function getForecast(coordinates) {
+  console.log(coordinates);
   let apiKey ="267c42e32a005ebd3d86d6022f9f9baf";
   let apiURL = `https://api.openweathermap.org/data/2.5/onecall?lat=${coordinates.lat}&lon=${coordinates.lon}&appid=${apiKey}& units=metric`;
 
