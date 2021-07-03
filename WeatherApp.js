@@ -107,7 +107,8 @@ searchCity("London");
    let forecastElement = document.querySelector ("#forecast");
    let forecastHTML = `<div class="row predictions">`;
    let days = ["Sun",  "Mon",  "Tues",  "Weds",  "Thurs",  "Fri"];
-   forecast.forEach(function(forecastDay) {
+   forecast.forEach(function(forecastDay, index) {
+     if (index < 6) {
    forecastHTML = forecastHTML + `
    
         <div class="col-2">
@@ -132,6 +133,7 @@ searchCity("London");
           </div>
         
           `;
+          }
           });
           forecastHTML = forecastHTML + `</div>`;
           forecastElement.innerHTML = forecastHTML;
