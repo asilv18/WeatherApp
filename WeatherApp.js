@@ -21,6 +21,15 @@ let day = days[date.getDay()];
 return `${day} ${hours}:${minutes}`;
 
 }
+
+function formatDay(timestamp) {
+  let date = new Date(timestamp * 1000);
+  let day = date.getDay();
+
+  return day;
+
+}
+
 function search(event) {
   event.preventDefault();
   let inputCity = document.querySelector("#input-City");
