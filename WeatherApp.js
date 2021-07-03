@@ -80,5 +80,35 @@ function getPosition(event) {
 let currentLocation = document.querySelector("#current");
 currentLocation.addEventListener("click", getPosition);
 searchCity("London");
+displayForecast();
 
- 
+ function displayForecast()  {
+   let forecastElement = document.querySelector ("#forecast");
+   let forecastHTML = `<div class="row predictions">`;
+   forecastHTML = forecastHTML + `
+   
+        <div class="col-2">
+          <div class ="weather forecast" id="forecast"></div>
+          <div class="card days-weather1">
+            <div class="card-body">
+              <h5 class="card-title">Monday</h5>
+              <h6 class="card-subtitle mb-2 text-muted">
+                <i class="fas fa-cloud-rain emojis"></i>
+              </h6>
+              <img
+                src="http://openweathermap.org/img/wn/50d@2x.png"
+                alt=""
+                width="36"
+              />
+              <div class="weather-forecast-temperature">
+                <span class="weather-forecast-temperature-max"> 11°C </span>
+                <span class="weather-forecast-temperature-min"> 5°C </span>
+              </div>
+            </div>
+          </div>
+          </div>
+        
+          `;
+          forecastHTML = forecastHTML + `</div>`;
+          forecastElement.innerHTML = forecastHTML;
+ }
