@@ -67,6 +67,7 @@ h2.innerHTML = formatDate(response.data.dt *1000);
 let iconElement = document.querySelector("#icon");
 iconElement.setAttribute("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
 
+console.log (response.data);
 }
 function currentPosition(position) {
   let apiKey = "267c42e32a005ebd3d86d6022f9f9baf";
